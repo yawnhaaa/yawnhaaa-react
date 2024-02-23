@@ -1,0 +1,33 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "plugins": ["stylelint-order", "stylelint-scss"],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "order/order": [
+      "custom-properties",
+      "dollar-variables",
+      "declarations",
+      "rules",
+      "at-rules"
+    ],
+    "order/properties-order": [
+      "position",
+      "z-index",
+      "top",
+      "right",
+      "bottom",
+      "left",
+      "display",
+      "float",
+      "clear",
+      "font-family",
+      "font-size",
+      "font-weight",
+      "font-style",
+      "background",
+      "color"
+    ]
+  }
+}
+
