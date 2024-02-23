@@ -1,7 +1,17 @@
 {
   "name": "safe-campus-frontend",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.1",
+  "description": "The samllest react project package I use myself.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yawnhaaa/yawnhaaa-react.git"
+  },
+  "author": "yawnhaaa",
+  "license": "MIT",
+  "keywords": [
+    "react"
+  ],
+  "private": false,
   "dependencies": {
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.82",
